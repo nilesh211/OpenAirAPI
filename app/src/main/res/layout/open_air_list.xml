@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="@dimen/weight_100"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/margin0"
+            android:layout_height="wrap_content"
+            android:layout_weight="@dimen/weight_80"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/margin04"
+            android:paddingLeft="@dimen/margin10"
+            android:paddingTop="@dimen/margin04">
+
+            <TextView
+                android:id="@+id/cityTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/font_size16" />
+
+            <TextView
+                android:id="@+id/countryCodeTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorGrayDark"
+                android:textSize="@dimen/font_size12" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/measurementCountTV"
+            android:layout_width="@dimen/margin0"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="@dimen/weight_20"
+            android:gravity="right"
+            android:paddingRight="@dimen/margin10"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/font_size16" />
+    </LinearLayout>
+    <View style="@style/Divider" />
+</LinearLayout>

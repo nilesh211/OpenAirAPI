@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">OpeAir</string>
+    <string name="error_message">Something went wrong on the server. No Data to display</string>
+    <string name="network_error">Please check your data connectivity …!!</string>
+    <string name="content_authority">com.example.sharma.openairapi</string>
+    <string name="city_name">City Name :</string>
+    <string name="country_code">Country Code :</string>
+    <string name="no_of_location">No of Locations :</string>
+    <string name="measurement">Measurement :</string>
+    <string name="city_detail">City Detail</string>
+    <string name="city_list">City List</string>
+    <string name="count_sort_asc">Measurement Ascending</string>
+    <string name="count_sort_desc">Measurement Descending</string>
+</resources>
